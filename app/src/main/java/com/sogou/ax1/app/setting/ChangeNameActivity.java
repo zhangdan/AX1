@@ -1,4 +1,4 @@
-package com.sogou.ax1.app;
+package com.sogou.ax1.app.setting;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
@@ -11,15 +11,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
-import com.sogou.ax1.app.base.X1BaseActivity;
+import com.sogou.ax1.app.R;
 
-
-public class WelcomeActivity extends X1BaseActivity {
+public class ChangeNameActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcome);
+        setContentView(R.layout.activity_change_name);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new PlaceholderFragment())
@@ -31,7 +30,7 @@ public class WelcomeActivity extends X1BaseActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.welcome, menu);
+        getMenuInflater().inflate(R.menu.change_name, menu);
         return true;
     }
 
@@ -58,7 +57,7 @@ public class WelcomeActivity extends X1BaseActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_welcome, container, false);
+            View rootView = inflater.inflate(R.layout.fragment_change_name, container, false);
             return rootView;
         }
     }

@@ -16,6 +16,98 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.sogou.ax1.app.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.base.X1BaseActivity"
+            android:label="@string/title_activity_x1_base" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.chat.ChatActivity"
+            android:label="@string/title_activity_chat" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.game.GameActivity"
+            android:label="@string/title_activity_game" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.chat.MapActivity"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.init.PrepareActivity"
+            android:label="@string/title_activity_prepare" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.init.ReadQrcodeActivity"
+            android:label="@string/title_activity_read_qrcode" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.init.DevicePaireActivity"
+            android:label="@string/title_activity_device_paire" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.init.InitInfoActivity"
+            android:label="@string/title_activity_init_info" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.login.LoginPasswordActivity"
+            android:label="@string/title_activity_login_password" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.login.LoginHomeActivity"
+            android:label="@string/title_activity_login_home" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.login.RegisterRoleActivity"
+            android:label="@string/title_activity_register_role" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.login.VerifiyCodeActivity"
+            android:label="@string/title_activity_verifiy_code" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.login.RegisterPasswordActivity"
+            android:label="@string/title_activity_register_password" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.setting.SettingHomeActivity"
+            android:label="@string/title_activity_setting_home" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.setting.FeedbackActivity"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.setting.FamiliyActivity"
+            android:label="@string/title_activity_familiy" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.setting.UserDetailActivity"
+            android:label="@string/title_activity_user_detail" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.setting.MyInfoActivity"
+            android:label="@string/title_activity_my_info" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.setting.ChangeRoleActivity"
+            android:label="@string/title_activity_change_role" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.setting.ChangeNameActivity"
+            android:label="@string/title_activity_change_name" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.setting.AddMemeberActivity"
+            android:label="@string/title_activity_add_memeber" >
+        </activity>
+        <activity
+            android:name="com.sogou.ax1.app.setting.QrCodeActivity"
+            android:label="@string/title_activity_qr_code" >
+        </activity>
     </application>
 
 </manifest>

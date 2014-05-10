@@ -4,5 +4,29 @@
     <string name="app_name">AX1</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_x1_base">X1BaseActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_prepare">PrepareActivity</string>
+    <string name="title_activity_read_qrcode">ReadQrcodeActivity</string>
+    <string name="title_activity_device_paire">DevicePaireActivity</string>
+    <string name="title_activity_init_info">InitInfoActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_login_password">LoginPasswordActivity</string>
+    <string name="title_activity_login_home">LoginHomeActivity</string>
+    <string name="title_activity_register_role">RegisterRoleActivity</string>
+    <string name="title_activity_verifiy_code">VerifiyCodeActivity</string>
+    <string name="title_activity_register_password">RegisterPasswordActivity</string>
+    <string name="title_activity_setting_home">SettingHomeActivity</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="title_activity_familiy">FamiliyActivity</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+    <string name="title_activity_my_info">MyInfoActivity</string>
+    <string name="title_activity_change_role">ChangeRoleActivity</string>
+    <string name="title_activity_change_name">ChangeNameActivity</string>
+    <string name="title_activity_add_memeber">AddMemeberActivity</string>
+    <string name="title_activity_qr_code">QrCodeActivity</string>
 
 </resources>
